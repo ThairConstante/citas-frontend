@@ -105,7 +105,7 @@
             .then(function(response) {
                 const token = response.data.access_token;
                 
-                //alert("Token generado:\n" + token);
+                alert("¡Bienvenido! Has iniciado sesión exitosamente.");
                
                 localStorage.setItem("token", token);
                 window.location.href = "index.html";
