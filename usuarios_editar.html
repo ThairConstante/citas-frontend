@@ -341,7 +341,7 @@
         const username = document.getElementById('username').value;
         const password = document.getElementById('password').value;
 
-        axios.put(`http://127.0.0.1:8000/users/update/${userId}`, {
+        axios.put(`${getServerUrl()}/users/update/${userId}`, {
             nombre: nombre,
             username: username,
             password: password
