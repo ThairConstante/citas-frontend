@@ -2,7 +2,7 @@
 
 ## **Descripción**
 
-Este repositorio contiene el frontend del sistema de gestión de citas médicas, desarrollado con **HTML, CSS y JavaScript**. Se conecta al backend alojado en `http://127.0.0.1:8000` (API RESTful desarrollada con FastAPI) para realizar operaciones CRUD relacionadas con usuarios, pacientes, doctores y citas médicas.
+Este repositorio contiene el frontend del sistema de gestión de citas médicas, desarrollado con **HTML, CSS y JavaScript**. Se conecta al backend alojado en `http://127.0.0.1:8000` para realizar operaciones CRUD relacionadas con usuarios, pacientes, doctores y citas médicas.
 
 El frontend permite a los usuarios interactuar con la aplicación web de manera intuitiva, gestionando registros y asignaciones de citas, además de incluir un sistema básico de autenticación JWT para proteger las funcionalidades sensibles.
 
@@ -13,13 +13,8 @@ El frontend permite a los usuarios interactuar con la aplicación web de manera 
 ### Frontend
 - **HTML5**
 - **CSS3**
-- **JavaScript (Vanilla)**
+- **JavaScript**
 - **Axios** – Para consumir la API.
-
----
-
-
-Asegúrate de tener el servidor backend corriendo antes de abrir el frontend.
 
 ---
 
